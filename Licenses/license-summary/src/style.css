@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center; /* Center align the text */
+    margin-bottom: 50px; /* Add vertical spacing below the header */
+}
+
+.header h1, .header h2 {
+    font-size: 26px; /* Same font size for both headers */
+    margin: 5px 0; /* Add a small vertical space between the two lines */
+}
+
+main h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Add space between sections */
+section {
+    margin-bottom: 45px; /* Adjust spacing between sections */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #2268FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.notice p {
+    margin: 10px 0;
+}

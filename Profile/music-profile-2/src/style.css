@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.aligned-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Header Banner */
+.banner {
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), 
+                url('banner-bg.jpg') no-repeat center center / cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Search Bar */
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Video Section */
+.video-section iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Data Stats Section */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    font-size: 20px;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Spacing between icon and text */
+    color: #BFBFBF;
+    
+}
+
+.stat-item i {
+    color: ##CBCBCB;
+    font-size: 16px;
+}
+
+
+/* Social Media */
+.social-media {
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    background: #2575fc;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.icon:hover {
+    background: #6a11cb;
+    transform: scale(1.1);
+}
+
+/* Image with Description Section */
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-link {
+    text-decoration: none; /* Remove underline on the link */
+    display: inline-block;
+    max-width: 300px; /* Limit the section width */
+    width: 100%; /* Make it responsive */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-link:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+.section-image {
+    width: 100%; /* Ensure the image is responsive */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.image-description {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* News Feed */
+.news-feed {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.news-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    text-align: left;
+}
+
+.news-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 10px 0; /* Add spacing between items */
+}
+
+.footer a {
+    color: #ACACAC;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    display: block; /* Ensures alignment when centered */
+}
+
+.footer a:hover {
+    color: #ffda79;
+}
+
